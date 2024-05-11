@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "textmilvus"
+version = "0.1.0"
+description = "This package enables the extraction of the top 16 most similar texts from the Milvus vector database."
+authors = ["Itnesh Kumar <your_email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pymilvus = "2.4.0"
+langchain = "0.0.164"
+sentence-transformers = "2.7.0" 
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+
