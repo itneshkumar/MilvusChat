@@ -14,5 +14,12 @@ You can install TextMilvus using pip:
  ```sh
 pip install textmilvus
 ```
+Try out
+```sh
+from textmilvus import TextMilvus
+
+client = TextMilvus("milvus_url")
+print(client.get('cluster_name', 'What is Financial health according to balance sheet of Reliance Company'))
+```
 
 
